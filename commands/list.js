@@ -13,8 +13,8 @@ module.exports = function (bot) {
             _(cfg.MONTHS).forEach((val, month) => {
                 keyboard.addButton(new bot.classes.KeyboardButton(month));
             });
-            // return bot.sendMessage(new bot.classes.Message(message.chat.id, `Please specify a month to list the expenses for.\nE.g. you can type \`${cfg.COMMANDS.LIST} April\` to get expenses for April or \`${cfg.COMMANDS.LIST} #food\``, 'Markdown'), () => {});
-            return bot.sendMessage(new bot.classes.Message(message.chat.id, 'Select a month to view expenses for.', null, null, null, null, keyboard), (res) => {});
+             return bot.sendMessage(new bot.classes.Message(message.chat.id, `Please specify a month to list the expenses for.\nE.g. you can type \`${cfg.COMMANDS.LIST} April\` to get expenses for April or \`${cfg.COMMANDS.LIST} #food\``, 'Markdown'), () => {});
+            //return bot.sendMessage(new bot.classes.Message(message.chat.id, 'Select a month to view expenses for.', null, null, null, null, keyboard), () => {});
     
         }
         var callback = function (err, all) {
