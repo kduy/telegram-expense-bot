@@ -1,3 +1,17 @@
+#TODO
+https://github.com/gbrian/bibot
+
+https://medium.com/@fasihxkhatib/a-bot-to-keep-track-of-your-expenses-b7b1c7e71b00
+
+https://github.com/python-telegram-bot/python-telegram-bot
+
+https://www.codementor.io/garethdwyer/building-a-telegram-bot-using-python-part-1-goi5fncay
+
+https://github.com/python-telegram-bot/python-telegram-bot/wiki/Code-snippets
+
+https://hackernoon.com/serverless-telegram-bot-on-aws-lambda-851204d4236c
+
+
 # telegram-expense-bot
 This is a bot for the [Telegram](https://telegram.org/) messaging app using their [bot platform](https://core.telegram.org/bots). The code is open-source and consequently anybody could set up an own instance of the bot. To learn how to do so, see [this section](#how-to-host-it-myself). The official hosted version is available as [@ExpenseBot](https://telegram.me/ExpenseBot). To learn more about this bot, please refer to [this blog article](https://ferdinand-muetsch.de/telegram-expensebot-doodlerbot.html) or just send the bot a message with the `/help` command.
 

@@ -14,7 +14,7 @@ class Expense {
 
     toString () {
         var d = new Date(this.timestamp);
-        return `[${df(d, 'mmmm dS')}] - ${this.type} - ${this.amount} - ${this.description}${this.category ? ' - ' + this.category : ''}`
+        return `[${df(d, 'dd/mm/yy')}] - ${this.type} - ${this.amount} - ${this.description}${this.category ? ' - ' + this.category : ''}`
     }
 }
 
