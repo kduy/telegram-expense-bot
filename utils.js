@@ -14,6 +14,7 @@ function parseExpenseMessage(messageText) {
 }
 
 function generateQueryFromUserMessage(args, user) {
+    console.log("generateQueryFromUserMessage", args, user)
     if (!user) return false;
 
     var date = new Date(), cat, from, to;

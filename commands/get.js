@@ -18,11 +18,11 @@ module.exports = function (bot) {
 
         var callback = function (err, all) {
             var sumAdded = eu.sumUp(all, "added");
-
             var sumSpent = eu.sumUp(all, "spent");
             bot.sendMessage(new bot.classes.Message(message.chat.id, `You have spent ${sumSpent}, added ${sumAdded}. `, null, null, null, null, new bot.classes.ReplyKeyboardHide), () => {});
             
         };
+        console.log(args)
         utils.queryExpensesByUserMessage(db.getCollection(), message, args, callback);
     }
 };
