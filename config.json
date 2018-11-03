@@ -1,9 +1,9 @@
 {
-    "DB_URL": "",
+    "DB_URL": "mongodb://root:89khuongduy@ds251223.mlab.com:51223/penny_mi_bot",
     "DB_COLLECTION": "expenses",
-    "BOT_TOKEN": "",
-    "BOT_NAME": "",
-    "BOT_TELEGRAM_USERNAME": "",
+    "BOT_TOKEN": "667998504:AAF-USLyPukjLj06TsSaFwltjMGOWYm4wLY",
+    "BOT_NAME": "Penny",
+    "BOT_TELEGRAM_USERNAME": "@PennyMiBot",
     "WEBHOOK_MODE": false,
     "PORT": 3000,
     "COMMANDS": {
