@@ -3,9 +3,10 @@
 const df = require('dateformat');
 
 class Expense {
-    constructor(user, amount, description, timestamp, category) {
+    constructor(user, amount, type, description, timestamp, category) {
         this.user = user;
         this.amount = amount;
+        this.type = type;
         this.description = description;
         this.category = category;
         this.timestamp = timestamp;
@@ -13,7 +14,7 @@ class Expense {
 
     toString () {
         var d = new Date(this.timestamp);
-        return `[${df(d, 'mmmm dS')}] ${this.amount} - ${this.description}${this.category ? ' - ' + this.category : ''}`
+        return `[${df(d, 'mmmm dS')}] - ${this.type} - ${this.amount} - ${this.description}${this.category ? ' - ' + this.category : ''}`
     }
 }
 

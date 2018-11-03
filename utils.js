@@ -76,7 +76,12 @@ function queryExpensesByUserMessage (expensesCollection, message, args, callback
         if (err) return callback(err);
         var expenses = [];
         _(all).forEach((item) => {
-            expenses.push(new Expense(item.user, item.amount.toFixed(2), item.description, item.timestamp, (item.category ? item.category : undefined)));
+            if (item.type == 0){
+                type_name = "added"
+            } else {
+                type_name = "spent"
+            }
+            expenses.push(new Expense(item.user, item.amount.toFixed(2), type_name, item.description, item.timestamp, (item.category ? item.category : undefined)));
         });
         callback(null, expenses);
     });
