@@ -8,7 +8,8 @@ const text = `
         *Adding a new expense*
         The following examples will show you various ways to add a new expense.
         1. \`1.99 Lunch #food\` or
-        2. \`${cfg.COMMANDS.NEW} 1.99 Lunch #food\` will add an expense of _1.99_ (whichever your currency is, that doesn't matter) with the description _Lunch_ to the category _#food_.
+        2. \`${cfg.COMMANDS.SPENT} 1.99 Lunch #food\` will add an expense of _1.99_ (whichever your currency is, that doesn't matter) with the description _Lunch_ to the category _#food_.
+        3. \`${cfg.COMMANDS.ADD} 199 #refund\` will add an earning of _1.99_ (whichever your currency is, that doesn't matter) with the description _Lunch_ to the category _#refund_.
         
         You can simply leave out the category (which is always defined by a hash sign) - this is just for you to have a clearer overview and separation later.
         

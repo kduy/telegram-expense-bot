@@ -21,7 +21,9 @@ try {
 
 const bot = botlib(cfg.BOT_TOKEN, null, processNonCommand, processInlineQuery, initialOffset);
 const commands = {
-    new: require('./commands/new')(bot),
+    // new: require('./commands/new')(bot),
+    add: require('./commands/add')(bot),
+    spent: require('./commands/spent')(bot),
     get: require('./commands/get')(bot),
     list: require('./commands/list')(bot),
     reset: require('./commands/reset')(bot),
