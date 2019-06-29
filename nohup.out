@@ -1,0 +1,13 @@
+
+> telegram-expense-bot@1.0.0 start /home/ubuntu/projects/telegram-expense-bot
+> node index.js
+
+Connected to database.
+generateQueryFromUserMessage [ 'Nov' ] 698568528
+[ 'Nov' ]
+generateQueryFromUserMessage [ 'Nov' ] 698568528
+
+> telegram-expense-bot@1.0.0 start /home/ubuntu/projects/telegram-expense-bot
+> node index.js
+
+Connected to database.
